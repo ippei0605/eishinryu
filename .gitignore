@@ -1,0 +1,7 @@
+# 設定ファイル
+.idea/
+
+# その他
+*.log
+.DS_Store
+Thumbs.db
