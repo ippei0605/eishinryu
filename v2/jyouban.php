@@ -24,11 +24,7 @@
         </h1>
         <div class="row">
             <div class="col-lg-4">
-                <?php
-                $images = ['master-yamasaki2.jpg', 'master-yamasaki3.jpg'];
-                $image = $images[mt_rand(0, count($images) - 1)];
-                ?>
-                <img src="/image/<?= $image ?>" class="img-responsive img-rounded">
+                <img src="/image/master-yamasaki2.jpg" class="img-responsive img-rounded">
             </div>
             <div class="col-lg-8 padding-10">
                 <ul>
