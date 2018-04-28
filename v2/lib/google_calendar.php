@@ -18,7 +18,7 @@ function get_events_by_url($url)
 
 function get_jyouban_events($date)
 {
-    $to_date = date('Y-m-d', strtotime($date.' +3 month -1 day'));
+    $to_date = date('Y-m-d', strtotime($date.' +3 month'));
     $url = 'https://www.googleapis.com/calendar/v3/calendars/p31th6lhvgpu5se3karqu1su5o@group.calendar.google.com/events?key=AIzaSyCGDCL9Cf2wYuTh0Er_KiqYlgasj-BRFds&timeMin='.$date.'T00:00:00Z&timeMax='.$to_date.'T00:00:00Z&orderBy=startTime&singleEvents=true&timeZone=Asia';
 
     return get_events_by_url($url);
