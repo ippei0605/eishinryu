@@ -17,7 +17,7 @@ $filename = basename(debug_backtrace()[0]["file"]);
     </div>
 </header>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-square">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menuId">
@@ -47,9 +47,16 @@ $filename = basename(debug_backtrace()[0]["file"]);
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="http://www.iai-zenkoku.net/">全国居合道連盟</a></li>
+                        <li><a href="http://shoshinaz.org/">正心流@アリゾナ</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<style>
+    .navbar-square {
+        border-radius: 0px;
+    }
+</style>
